@@ -8,7 +8,6 @@ def safe_print_integer_err(value):
         print("{:d}".format(value))
         return True
 
-    except (ValueError, TypeError):
-        print("Exception: Unknown format code 'd' \
-for object of type 'str'", file=sys.stderr)
+    except (ValueError, TypeError) as x:
+        print("Expectaion: {}".format(x), file=sys.stderr)
         return False
