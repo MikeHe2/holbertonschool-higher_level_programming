@@ -30,11 +30,3 @@ class Square:
             size (int): The size of the square.
         """
         self.__size = size
-
-        """
-        Inicializa una nueva instancia de la clase Square.
-
-        Args:
-            size (int): El tamaño del cuadrado.
-        """
-        self.__size = size
