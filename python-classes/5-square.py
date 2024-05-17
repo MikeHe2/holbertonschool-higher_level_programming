@@ -1,4 +1,4 @@
-#!/usr/usr/bin/python3
+#!/usrs/bin/python3
 """
 This module defines the Square class.
 The Square class can be used to represent a geometric square,
