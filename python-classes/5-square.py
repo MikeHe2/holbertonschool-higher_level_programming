@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr#!/usr/bin/python3
 """
 This module defines the Square class.
 The Square class can be used to represent a geometric square,
@@ -96,3 +96,17 @@ class Square:
             The area of the square.
         """
         return self.__size ** 2
+
+    def my_print(self):
+        """
+        Prints the square with the character '#'.
+
+        If the size of the square is 0, it prints an empty line.
+        """
+        if self.__size == 0:
+            print()
+        else:
+            for i in range(self.__size):
+                for j in range(self.__size):
+                    print("#", end="")
+                print()
