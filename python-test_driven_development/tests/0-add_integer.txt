@@ -9,9 +9,9 @@
 >>> add_integer(20.5, 1)
 21
 
->>> add_integer("hola", 1)
+>>> add_integer()
 Traceback (most recent call last):
-TypeError: a must be an integer
+TypeError: add_integer() missing 1 required positional argument: 'a'
 
 >>> add_integer(2, "holb")
 Traceback (most recent call last):
