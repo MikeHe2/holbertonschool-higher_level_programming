@@ -3,4 +3,29 @@
 >>> add_integer(1, 2)
 3
 
+>>> add_integer(-1 , 2)
+1
+
+>>> add_integer(20.5, 1)
+21
+
+>>> add_integer("hola", 1)
+Traceback (most recent call last):
+TypeError: a must be an integer
+
+>>> add_integer(2, "holb")
+Traceback (most recent call last):
+TypeError: b must be an integer
+
+>>> add_integer({}, 3)
+Traceback (most recent call last):
+TypeError: a must be an integer
+
+>>> add_integer(2, )
+100
+
+>>> add_integer(, 23)
+Traceback (most recent call last):
+SyntaxError: invalid syntax
+
 """
