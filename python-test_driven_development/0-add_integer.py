@@ -1,4 +1,4 @@
-#!/usr/bin/oyhton3
+#!/usr/bin/python3
 
 """
 
