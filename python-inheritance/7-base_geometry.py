@@ -9,19 +9,6 @@ class BaseGeometry:
     Base class for geometry operations.
     """
 
-    def area(self):
-        """
-        Calculate the area of a geometric shape.
-
-        This method should be overridden by subclasses to provide
-        the specific area calculation.
-
-        Raises:
-            Exception: Always raises an exception indicating that
-            the method is not implemented.
-        """
-        raise Exception("area() is not implemented")
-
     def integer_validator(self, name, value):
         """
         Validate that a parameter is a positive integer.
@@ -38,3 +25,16 @@ class BaseGeometry:
             raise TypeError("{} must be an integer".format(name))
         if value <= 0:
             raise ValueError("{} must be greater than 0".format(name))
+
+    def area(self):
+        """
+        Calculate the area of a geometric shape.
+
+        This method should be overridden by subclasses to provide
+        the specific area calculation.
+
+        Raises:
+            Exception: Always raises an exception indicating that
+            the method is not implemented.
+        """
+        raise Exception("area() is not implemented")
