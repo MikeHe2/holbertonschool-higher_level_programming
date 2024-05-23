@@ -83,8 +83,8 @@ class Rectangle:
             '#' character.
 
         Returns:
-            str: A string representation of the rectangle, or an empty string
-                 if width or height is 0.
+            str: A string representation of the rectangle, or an empty
+                 string if width or height is 0.
         """
         if self.__width == 0 or self.__height == 0:
             return ""
@@ -97,5 +97,11 @@ class Rectangle:
         return new_rectangle
 
     def __repr__(self):
+        """Return the string representation of the rectangle for
+            reproduction.
 
-        return "Rectangle {}, {}".format(self.__width, self.__height)
+        Returns:
+            str: A string representation of the rectangle.
+        """
+        return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
+
