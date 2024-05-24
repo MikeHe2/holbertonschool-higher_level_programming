@@ -19,3 +19,7 @@ class CountedIterator:
     def get_count(self):
 
         return self.__counter
+
+    def __iter__(self):
+
+        return self
