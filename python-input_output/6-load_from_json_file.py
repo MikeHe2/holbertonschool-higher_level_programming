@@ -5,6 +5,7 @@
 
 import json
 
+
 def load_from_json_file(filename):
     """
     Load data from a JSON file and return the deserialized object.
