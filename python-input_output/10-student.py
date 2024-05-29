@@ -27,10 +27,10 @@ class Student:
         if attrs is None:
             return self.__dict__
         else:
-            if isinstance(attrs, list) and all(isinstance(attr, str)\
+            if isinstance(attrs, list) and all(isinstance(attr, str)
                 for attr in attrs):
 
-                return {attr: self.__dict__.get(attr) for attr in attrs\
+                return {attr: self.__dict__.get(attr) for attr in attrs
                     if attr in self.__dict__}
             else:
                 return self.__dict__
