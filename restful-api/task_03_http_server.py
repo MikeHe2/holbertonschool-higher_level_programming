@@ -40,7 +40,7 @@ class SimpleHTTPRequestHandler(http.server.BaseHTTPRequestHandler):
             self.send_response(404)
             self.send_header("Content-type", "application/json")
             self.end_headers()
-            self.wfile.write(b"404 not found")
+            self.wfile.write(b"404 Not Found")
 
 Handler = SimpleHTTPRequestHandler
 
