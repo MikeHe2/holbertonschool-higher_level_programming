@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-This script connects to a MySQL database and selects all rows from the 'states' table.
+This script connects to a MySQL database and selects
+all rows from the 'states' table.
 The selected rows are then printed to the console.
 """
 
