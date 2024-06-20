@@ -2,7 +2,7 @@
 """
 This script connects to a MySQL database and retrieves rows
 from the 'states' table that match a given name. The name is
-provided as a command-line argument.
+provided as   a command-line argument.
 
 Usage: python3 3-my_safe_filter_states.py <username>
 <password> <database> <name>
