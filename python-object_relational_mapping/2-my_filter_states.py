@@ -1,9 +1,12 @@
+#!/usr/bin/python3
 """
-This script connects to a MySQL database and retrieves rows from the 'states' table
-that match a given name pattern. The script takes command line arguments for the
-MySQL username, password, database name, and name pattern to search for.
+This script connects to a MySQL database and retrieves rows from the 'states'
+table that match a given name pattern. The script takes command line
+arguments for the MySQL username, password, database name, and name
+pattern to search for.
 
-Usage: python3 2-my_filter_states.py <username> <password> <database> <name_pattern>
+Usage: python3 2-my_filter_states.py <username> <password>
+<database> <name_pattern>
 """
 
 import MySQLdb
