@@ -2,11 +2,10 @@
 
 """
 This script fetches all the states from the database
-and prints their IDs and names.
+and prints their IDs and namess.
 """
 
 from model_state import Base, State
-from sqlalchemy import select
 from sqlalchemy import (create_engine)
 from sqlalchemy.orm import Session
 import sys
