@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
 """
-This script fetches all the states from the database
-and prints their IDs and names.
+This script fetches a specific state from the database
+based on the provided state name and prints its ID.
 """
 
 from model_state import Base, State
