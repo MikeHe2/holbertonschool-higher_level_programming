@@ -18,8 +18,9 @@ if __name__ == '__main__':
                 WHERE states.name = %s
                 ORDER BY cities.id ASC """, (sys.argv[4],))
     query_rows = cur.fetchall()
-    for row in query_rows:
-        cities_name = ', '.join([row[0] for row in query_rows])
+
+    cities_name = ', '.join([row[0] for row in query_rows])
     print(cities_name)
+
     cur.close()
     conn.close()
