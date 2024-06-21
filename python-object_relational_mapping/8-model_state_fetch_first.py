@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
     session = Session(engine)
 
-    if session.query(State) is None:
+    if session.query(State).first() is None:
         print("Nothing")
 
     state_id = session.query(State).first().id
