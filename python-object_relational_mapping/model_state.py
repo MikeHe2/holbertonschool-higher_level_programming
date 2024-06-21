@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """
 This module defines the State class, which represents a state in a database.
 """
@@ -21,4 +22,4 @@ class State(Base):
     __tablename__ = 'states'
     id = Column(Integer, unique=True, primary_key=True,
                 autoincrement=True, nullable=False)
-    name =  Column(String(128), nullable=False)
+    name = Column(String(128), nullable=False)
