@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """
 This scrript fetches all cities and their corresponding
 states from a MySQL database using SQLAlchemy ORM.
