@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This script fetches all cities and their corresponding
+This scrript fetches all cities and their corresponding
 states from a MySQL database using SQLAlchemy ORM.
 
 Usage:
